@@ -17,7 +17,7 @@ from regex_parser import parse_statement
 st.set_page_config(page_title="Bank Statement Parser", layout="wide")
 
 # Fallback to an environment variable or hardcoded placeholder
-API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyAIozEzIrdQtqhDP-VL8--8DsMKyHvc-NE")
+API_KEY = os.environ.get("GEMINI_API_KEY")
 
 
 
