@@ -69,23 +69,34 @@ For each preset, the reported metrics are per-field accuracy in the table
 
 ### For clean:
 Field Accuracy (percentage of extracted):
+
   Date Match:    100.0%
+  
   Amount Match:  100.0%
+  
   Type Match:    100.0%
+  
   Balance Match: 100.0%
 
 ### For light noise:
 Field Accuracy (percentage of extracted):
+
   Date Match:    100.0%
+  
   Amount Match:  97.4%
+  
   Type Match:    96.1%
+  
   Balance Match: 100.0%
 
 ### For heavy noise:
 Field Accuracy (percentage of extracted):
   Date Match:    90.8%
+  
   Amount Match:  33.6%
+  
   Type Match:    85.7%
+  
   Balance Match: 42.0%
 
 Note that the evaluation metrics show disproportionately poor performance for heavy noise because a single row in the table was missed and all entries below it were moved up.
