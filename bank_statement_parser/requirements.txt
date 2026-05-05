@@ -1,0 +1,8 @@
+streamlit
+pypdf
+easyocr
+google-genai
+pydantic
+pandas
+pytesseract
+pymupdf
